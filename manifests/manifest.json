@@ -1,0 +1,167 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://dieyenucr.github.io/Test/manifests/manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Roba Roma" ]
+  },
+  "items" : [ {
+    "id" : "https://example.org/8e49f29d-be32-4371-a595-ab826fa72206/canvas/965f9021-0f57-41ef-aa55-aad1ca709a24",
+    "type" : "Canvas",
+    "height" : 3072,
+    "width" : 1751,
+    "label" : {
+      "en" : [ "Pudicitia by Giacomo Brogi, Vatican, c. 1845-1855" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "Artist" ]
+      },
+      "value" : {
+        "en" : [ "James Anderson (English photographer, 1813-1877, active in Italy)" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Title" ]
+      },
+      "value" : {
+        "en" : [ "Pudicitia by Giacomo Brogi, Vatican, c. 1845-1855" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Materials / Measurements" ]
+      },
+      "value" : {
+        "en" : [ "Albumen print, mtd; 24.7 x 14 cm (image) laid onto original publisher’s thin card mount" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Repository" ]
+      },
+      "value" : {
+        "en" : [ "Visual Resource Collection, Department of Art History, University of California, Riverside" ]
+      }
+    } ],
+    "summary" : {
+      "en" : [ "Part of: Roma di Roma [album], c. late 1850s-1860s" ]
+    },
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "James Anderson (English photographer, 1813-1877, active in Italy)" ]
+      },
+      "value" : {
+        "en" : [ "Pudicitia by Giacomo Brogi, Vatican, c. 1845-1855" ]
+      }
+    },
+    "items" : [ {
+      "id" : "https://example.org/8e49f29d-be32-4371-a595-ab826fa72206/canvas/965f9021-0f57-41ef-aa55-aad1ca709a24/annotation-page/79c94a2a-dbcf-4fa7-8005-f17c07ee2219",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/8e49f29d-be32-4371-a595-ab826fa72206/annotation/7e3bf386-0114-4d2a-ad08-118c0560e770",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/8e49f29d-be32-4371-a595-ab826fa72206/canvas/965f9021-0f57-41ef-aa55-aad1ca709a24",
+        "body" : {
+          "id" : "https://iiif.archivelab.org/iiif/2015-006-roba-roma-001/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 3072,
+          "width" : 1751,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/2015-006-roba-roma-001",
+            "height" : 3072,
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ],
+            "protocol" : "http://iiif.io/api/image",
+            "tiles" : [ {
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ],
+              "width" : 256,
+              "height" : 256
+            } ],
+            "width" : 1751,
+            "id" : "https://iiif.archivelab.org/iiif/2015-006-roba-roma-001"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/8e49f29d-be32-4371-a595-ab826fa72206/canvas/f0706d75-5c34-4d5d-8967-24f7efa54c14",
+    "type" : "Canvas",
+    "height" : 4141,
+    "width" : 6091,
+    "label" : {
+      "en" : [ "Tomb of Cecilia Matella and Appian Way" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "Artist" ]
+      },
+      "value" : {
+        "en" : [ "Joseph Spithöver (German photographer and publisher, active 19th century in Rome)" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Title" ]
+      },
+      "value" : {
+        "en" : [ "Tomb of Cecilia Matella and Appian Way, c. 1860s" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Materials / Measurements" ]
+      },
+      "value" : {
+        "en" : [ "Albumen Print; " ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Repository" ]
+      },
+      "value" : {
+        "en" : [ "Visual Resource Collection, Department of Art History, University of California, Riverside" ]
+      }
+    } ],
+    "summary" : {
+      "en" : [ "" ]
+    },
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "Joseph Spithöver (German photographer and publisher, active 19th century in Rome)" ]
+      },
+      "value" : {
+        "en" : [ "Tomb of Cecilia Matella and Appian Way, c. 1860s" ]
+      }
+    },
+    "items" : [ {
+      "id" : "https://example.org/8e49f29d-be32-4371-a595-ab826fa72206/canvas/f0706d75-5c34-4d5d-8967-24f7efa54c14/annotation-page/7f236821-f542-4e68-8429-b71237ff71e8",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/8e49f29d-be32-4371-a595-ab826fa72206/annotation/7df4b674-d913-49b4-b978-b46aadb2fc4c",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/8e49f29d-be32-4371-a595-ab826fa72206/canvas/f0706d75-5c34-4d5d-8967-24f7efa54c14",
+        "body" : {
+          "id" : "https://iiif.archivelab.org/iiif/2015-024-roba-roma-019/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 4141,
+          "width" : 6091,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/2015-024-roba-roma-019",
+            "height" : 4141,
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ],
+            "protocol" : "http://iiif.io/api/image",
+            "tiles" : [ {
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ],
+              "width" : 256,
+              "height" : 256
+            } ],
+            "width" : 6091,
+            "id" : "https://iiif.archivelab.org/iiif/2015-024-roba-roma-019"
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
