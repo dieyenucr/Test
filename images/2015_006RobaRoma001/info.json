@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 55,
+    "height" : 96
+  }, {
+    "width" : 110,
+    "height" : 192
+  }, {
+    "width" : 219,
+    "height" : 384
+  }, {
+    "width" : 438,
+    "height" : 768
+  }, {
+    "width" : 876,
+    "height" : 1536
+  }, {
+    "width" : 1751,
+    "height" : 3072
+  } ],
+  "profile" : "level0",
+  "width" : 1751,
+  "id" : "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 3072
+}
