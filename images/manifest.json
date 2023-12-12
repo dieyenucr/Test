@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 500,
+    "id" : "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001_thumbnail/canvas/",
+    "label" : {
+      "none" : [ "2015_006RobaRoma001_thumbnail" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001_thumbnail/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001_thumbnail/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 16,
+              "height" : 28
+            }, {
+              "width" : 32,
+              "height" : 55
+            }, {
+              "width" : 63,
+              "height" : 110
+            }, {
+              "width" : 125,
+              "height" : 220
+            }, {
+              "width" : 250,
+              "height" : 439
+            }, {
+              "width" : 500,
+              "height" : 877
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 500,
+            "@id" : "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001_thumbnail",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 877
+          } ],
+          "format" : "image/jpeg",
+          "width" : 500,
+          "id" : "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001_thumbnail/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 877
+        },
+        "target" : "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001_thumbnail/canvas/"
+      } ]
+    } ],
+    "height" : 877
+  }, {
     "width" : 1751,
     "id" : "https://dieyenucr.github.io/Test/images/2015006RobaRoma001/canvas/",
     "label" : {
