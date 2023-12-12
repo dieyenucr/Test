@@ -1,0 +1,59 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://dieyenucr.github.io/Test/manifests/Test.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://4ae52d06-d3a7-497e-a1a8-02dccc70d189",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://5e5254de-2206-43f7-9f79-4f558fe0469e",
+      "@type" : "sc:Canvas",
+      "label" : "Pudicitia by Giacomo Brogi, Vatican, c. 1845-1855",
+      "height" : 3072,
+      "width" : 1751,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0563a1fe-f732-4a75-ba86-fe239690325a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/2015-006-roba-roma-001/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/2015-006-roba-roma-001",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3072,
+          "width" : 1751
+        },
+        "on" : "http://5e5254de-2206-43f7-9f79-4f558fe0469e"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Artist",
+        "value" : "James Anderson (English photographer, 1813-1877, active in Italy)"
+      }, {
+        "label" : "Title",
+        "value" : "Pudicitia by Giacomo Brogi, Vatican, c. 1845-1855"
+      }, {
+        "label" : "Materials / Measurements",
+        "value" : "Albumen print, mtd; 24.7 x 14 cm (image) laid onto original publisher’s thin card mount"
+      } ]
+    } ]
+  } ],
+  "structures" : [ ]
+}
