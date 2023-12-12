@@ -1,0 +1,67 @@
+{
+  "id" : "https://dieyenucr.github.io/Test/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in dieyenucr/Test project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 1620,
+    "id" : "https://dieyenucr.github.io/Test/images/downloadtest/canvas/",
+    "label" : {
+      "none" : [ "downloadtest" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://dieyenucr.github.io/Test/images/downloadtest/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://dieyenucr.github.io/Test/images/downloadtest/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 51,
+              "height" : 41
+            }, {
+              "width" : 102,
+              "height" : 82
+            }, {
+              "width" : 203,
+              "height" : 163
+            }, {
+              "width" : 405,
+              "height" : 325
+            }, {
+              "width" : 810,
+              "height" : 649
+            }, {
+              "width" : 1620,
+              "height" : 1298
+            } ],
+            "profile" : "level0",
+            "width" : 1620,
+            "id" : "https://dieyenucr.github.io/Test/images/downloadtest",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 1298
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1620,
+          "id" : "https://dieyenucr.github.io/Test/images/downloadtest/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 1298
+        },
+        "target" : "https://dieyenucr.github.io/Test/images/downloadtest/canvas/"
+      } ]
+    } ],
+    "height" : 1298
+  } ]
+}
