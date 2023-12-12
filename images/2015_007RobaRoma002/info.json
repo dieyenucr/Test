@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 65,
+    "height" : 96
+  }, {
+    "width" : 130,
+    "height" : 192
+  }, {
+    "width" : 259,
+    "height" : 384
+  }, {
+    "width" : 517,
+    "height" : 768
+  }, {
+    "width" : 1033,
+    "height" : 1536
+  }, {
+    "width" : 2065,
+    "height" : 3072
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 2065,
+  "@id" : "https://dieyenucr.github.io/Test/images/2015_007RobaRoma002",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 3072
+}
