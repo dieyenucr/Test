@@ -9,5 +9,11 @@
     "@type" : "sc:Manifest",
     "@id" : "https://dieyenucr.github.io/Test/manifests/Test.json",
     "label" : "[Click to edit label]"
+  }, {
+    "id" : "https://dieyenucr.github.io/Test/manifests/manifest.json",
+    "label" : {
+      "en" : [ "Roba Roma" ]
+    },
+    "type" : "Manifest"
   } ]
 }
