@@ -1,296 +1,498 @@
 {
-  "id" : "https://dieyenucr.github.io/Test/images/manifest.json",
-  "label" : {
-    "en" : [ "All images loaded in dieyenucr/Test project" ]
-  },
-  "type" : "Manifest",
-  "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "items" : [ {
-    "width" : 2065,
-    "id" : "https://dieyenucr.github.io/Test/images/2015_007RobaRoma002/canvas/",
-    "label" : {
-      "none" : [ "2015_007RobaRoma002" ]
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://dieyenucr.github.io/Test/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in dieyenucr/Test project"
+        ]
     },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://dieyenucr.github.io/Test/images/2015_007RobaRoma002/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://dieyenucr.github.io/Test/images/2015_007RobaRoma002/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 65,
-              "height" : 96
-            }, {
-              "width" : 130,
-              "height" : 192
-            }, {
-              "width" : 259,
-              "height" : 384
-            }, {
-              "width" : 517,
-              "height" : 768
-            }, {
-              "width" : 1033,
-              "height" : 1536
-            }, {
-              "width" : 2065,
-              "height" : 3072
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 2065,
-            "@id" : "https://dieyenucr.github.io/Test/images/2015_007RobaRoma002",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 3072
-          } ],
-          "format" : "image/jpeg",
-          "width" : 2065,
-          "id" : "https://dieyenucr.github.io/Test/images/2015_007RobaRoma002/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 3072
+    "items": [
+        {
+            "id": "https://dieyenucr.github.io/Test/images/downloadtest/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "downloadtest"
+                ]
+            },
+            "height": 1298,
+            "width": 1620,
+            "items": [
+                {
+                    "id": "https://dieyenucr.github.io/Test/images/downloadtest/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://dieyenucr.github.io/Test/images/downloadtest/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://dieyenucr.github.io/Test/images/downloadtest/full/max/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 51,
+                                                "height": 41
+                                            },
+                                            {
+                                                "width": 102,
+                                                "height": 82
+                                            },
+                                            {
+                                                "width": 203,
+                                                "height": 163
+                                            },
+                                            {
+                                                "width": 405,
+                                                "height": 325
+                                            },
+                                            {
+                                                "width": 810,
+                                                "height": 649
+                                            },
+                                            {
+                                                "width": 1620,
+                                                "height": 1298
+                                            }
+                                        ],
+                                        "profile": "level0",
+                                        "width": 1620,
+                                        "id": "https://dieyenucr.github.io/Test/images/downloadtest",
+                                        "type": "ImageService3",
+                                        "@context": "http://iiif.io/api/image/3/context.json",
+                                        "height": 1298
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://dieyenucr.github.io/Test/images/downloadtest/canvas/"
+                        }
+                    ]
+                }
+            ]
         },
-        "target" : "https://dieyenucr.github.io/Test/images/2015_007RobaRoma002/canvas/"
-      } ]
-    } ],
-    "height" : 3072
-  }, {
-    "width" : 1751,
-    "id" : "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001/canvas/",
-    "label" : {
-      "none" : [ "2015_006RobaRoma001" ]
-    },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 55,
-              "height" : 96
-            }, {
-              "width" : 110,
-              "height" : 192
-            }, {
-              "width" : 219,
-              "height" : 384
-            }, {
-              "width" : 438,
-              "height" : 768
-            }, {
-              "width" : 876,
-              "height" : 1536
-            }, {
-              "width" : 1751,
-              "height" : 3072
-            } ],
-            "profile" : "level0",
-            "width" : 1751,
-            "id" : "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001",
-            "type" : "ImageService3",
-            "@context" : "http://iiif.io/api/image/3/context.json",
-            "height" : 3072
-          } ],
-          "format" : "image/jpeg",
-          "width" : 1751,
-          "id" : "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001/full/max/0/default.jpg",
-          "type" : "Image",
-          "height" : 3072
+        {
+            "id": "https://dieyenucr.github.io/Test/images/2015_007RobaRoma002/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "2015_007RobaRoma002"
+                ]
+            },
+            "height": 3072,
+            "width": 2065,
+            "items": [
+                {
+                    "id": "https://dieyenucr.github.io/Test/images/2015_007RobaRoma002/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://dieyenucr.github.io/Test/images/2015_007RobaRoma002/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://dieyenucr.github.io/Test/images/2015_007RobaRoma002/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 65,
+                                                "height": 96
+                                            },
+                                            {
+                                                "width": 130,
+                                                "height": 192
+                                            },
+                                            {
+                                                "width": 259,
+                                                "height": 384
+                                            },
+                                            {
+                                                "width": 517,
+                                                "height": 768
+                                            },
+                                            {
+                                                "width": 1033,
+                                                "height": 1536
+                                            },
+                                            {
+                                                "width": 2065,
+                                                "height": 3072
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 2065,
+                                        "@id": "https://dieyenucr.github.io/Test/images/2015_007RobaRoma002",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 3072,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://dieyenucr.github.io/Test/images/2015_007RobaRoma002/canvas/"
+                        }
+                    ]
+                }
+            ]
         },
-        "target" : "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001/canvas/"
-      } ]
-    } ],
-    "height" : 3072
-  }, {
-    "width" : 500,
-    "id" : "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001_thumbnail/canvas/",
-    "label" : {
-      "none" : [ "2015_006RobaRoma001_thumbnail" ]
-    },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001_thumbnail/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001_thumbnail/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 16,
-              "height" : 28
-            }, {
-              "width" : 32,
-              "height" : 55
-            }, {
-              "width" : 63,
-              "height" : 110
-            }, {
-              "width" : 125,
-              "height" : 220
-            }, {
-              "width" : 250,
-              "height" : 439
-            }, {
-              "width" : 500,
-              "height" : 877
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 500,
-            "@id" : "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001_thumbnail",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 877
-          } ],
-          "format" : "image/jpeg",
-          "width" : 500,
-          "id" : "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001_thumbnail/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 877
+        {
+            "id": "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001_thumbnail/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "2015_006RobaRoma001_thumbnail"
+                ]
+            },
+            "height": 877,
+            "width": 500,
+            "items": [
+                {
+                    "id": "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001_thumbnail/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001_thumbnail/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001_thumbnail/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 16,
+                                                "height": 28
+                                            },
+                                            {
+                                                "width": 32,
+                                                "height": 55
+                                            },
+                                            {
+                                                "width": 63,
+                                                "height": 110
+                                            },
+                                            {
+                                                "width": 125,
+                                                "height": 220
+                                            },
+                                            {
+                                                "width": 250,
+                                                "height": 439
+                                            },
+                                            {
+                                                "width": 500,
+                                                "height": 877
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 500,
+                                        "@id": "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001_thumbnail",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 877,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001_thumbnail/canvas/"
+                        }
+                    ]
+                }
+            ]
         },
-        "target" : "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001_thumbnail/canvas/"
-      } ]
-    } ],
-    "height" : 877
-  }, {
-    "width" : 1751,
-    "id" : "https://dieyenucr.github.io/Test/images/2015006RobaRoma001/canvas/",
-    "label" : {
-      "none" : [ "2015006RobaRoma001" ]
-    },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://dieyenucr.github.io/Test/images/2015006RobaRoma001/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://dieyenucr.github.io/Test/images/2015006RobaRoma001/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 55,
-              "height" : 96
-            }, {
-              "width" : 110,
-              "height" : 192
-            }, {
-              "width" : 219,
-              "height" : 384
-            }, {
-              "width" : 438,
-              "height" : 768
-            }, {
-              "width" : 876,
-              "height" : 1536
-            }, {
-              "width" : 1751,
-              "height" : 3072
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 1751,
-            "@id" : "https://dieyenucr.github.io/Test/images/2015006RobaRoma001",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 3072
-          } ],
-          "format" : "image/jpeg",
-          "width" : 1751,
-          "id" : "https://dieyenucr.github.io/Test/images/2015006RobaRoma001/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 3072
+        {
+            "id": "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001new/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "2015_006RobaRoma001new"
+                ]
+            },
+            "height": 3072,
+            "width": 1751,
+            "items": [
+                {
+                    "id": "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001new/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001new/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001new/full/max/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 55,
+                                                "height": 96
+                                            },
+                                            {
+                                                "width": 110,
+                                                "height": 192
+                                            },
+                                            {
+                                                "width": 219,
+                                                "height": 384
+                                            },
+                                            {
+                                                "width": 438,
+                                                "height": 768
+                                            },
+                                            {
+                                                "width": 876,
+                                                "height": 1536
+                                            },
+                                            {
+                                                "width": 1751,
+                                                "height": 3072
+                                            }
+                                        ],
+                                        "profile": "level0",
+                                        "width": 1751,
+                                        "id": "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001new",
+                                        "type": "ImageService3",
+                                        "@context": "http://iiif.io/api/image/3/context.json",
+                                        "height": 3072
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001new/canvas/"
+                        }
+                    ]
+                }
+            ]
         },
-        "target" : "https://dieyenucr.github.io/Test/images/2015006RobaRoma001/canvas/"
-      } ]
-    } ],
-    "height" : 3072
-  }, {
-    "width" : 1620,
-    "id" : "https://dieyenucr.github.io/Test/images/downloadtest/canvas/",
-    "label" : {
-      "none" : [ "downloadtest" ]
-    },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://dieyenucr.github.io/Test/images/downloadtest/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://dieyenucr.github.io/Test/images/downloadtest/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 51,
-              "height" : 41
-            }, {
-              "width" : 102,
-              "height" : 82
-            }, {
-              "width" : 203,
-              "height" : 163
-            }, {
-              "width" : 405,
-              "height" : 325
-            }, {
-              "width" : 810,
-              "height" : 649
-            }, {
-              "width" : 1620,
-              "height" : 1298
-            } ],
-            "profile" : "level0",
-            "width" : 1620,
-            "id" : "https://dieyenucr.github.io/Test/images/downloadtest",
-            "type" : "ImageService3",
-            "@context" : "http://iiif.io/api/image/3/context.json",
-            "height" : 1298
-          } ],
-          "format" : "image/jpeg",
-          "width" : 1620,
-          "id" : "https://dieyenucr.github.io/Test/images/downloadtest/full/max/0/default.jpg",
-          "type" : "Image",
-          "height" : 1298
+        {
+            "id": "https://dieyenucr.github.io/Test/images/2015006RobaRoma001/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "2015006RobaRoma001"
+                ]
+            },
+            "height": 3072,
+            "width": 1751,
+            "items": [
+                {
+                    "id": "https://dieyenucr.github.io/Test/images/2015006RobaRoma001/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://dieyenucr.github.io/Test/images/2015006RobaRoma001/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://dieyenucr.github.io/Test/images/2015006RobaRoma001/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 55,
+                                                "height": 96
+                                            },
+                                            {
+                                                "width": 110,
+                                                "height": 192
+                                            },
+                                            {
+                                                "width": 219,
+                                                "height": 384
+                                            },
+                                            {
+                                                "width": 438,
+                                                "height": 768
+                                            },
+                                            {
+                                                "width": 876,
+                                                "height": 1536
+                                            },
+                                            {
+                                                "width": 1751,
+                                                "height": 3072
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 1751,
+                                        "@id": "https://dieyenucr.github.io/Test/images/2015006RobaRoma001",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 3072,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://dieyenucr.github.io/Test/images/2015006RobaRoma001/canvas/"
+                        }
+                    ]
+                }
+            ]
         },
-        "target" : "https://dieyenucr.github.io/Test/images/downloadtest/canvas/"
-      } ]
-    } ],
-    "height" : 1298
-  } ]
+        {
+            "id": "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "2015_006RobaRoma001"
+                ]
+            },
+            "height": 3072,
+            "width": 1751,
+            "items": [
+                {
+                    "id": "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001/full/max/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 55,
+                                                "height": 96
+                                            },
+                                            {
+                                                "width": 110,
+                                                "height": 192
+                                            },
+                                            {
+                                                "width": 219,
+                                                "height": 384
+                                            },
+                                            {
+                                                "width": 438,
+                                                "height": 768
+                                            },
+                                            {
+                                                "width": 876,
+                                                "height": 1536
+                                            },
+                                            {
+                                                "width": 1751,
+                                                "height": 3072
+                                            }
+                                        ],
+                                        "profile": "level0",
+                                        "width": 1751,
+                                        "id": "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001",
+                                        "type": "ImageService3",
+                                        "@context": "http://iiif.io/api/image/3/context.json",
+                                        "height": 3072
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://dieyenucr.github.io/Test/images/2015_006RobaRoma001/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
